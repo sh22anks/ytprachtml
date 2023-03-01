@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12g</title>
+        <style>
+            .main-con{
+                width:800px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }.add-friend{
+                background-color: rgb(66, 135, 213);
+                border-color: rgb(66, 135, 213);
+                border:none;
+                color:white;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                border-radius:10px;
+                padding: 5px 9px 5px 9px;
+                height:30px;
+                align-self: center;
+                cursor: pointer;
+            }
+            .profile{
+                width:300px;
+                display: grid;
+                grid-template-columns:50px 300fr 1fr;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+            }
+            .name{
+                font-weight: 700;
+                font-size:17px;
+            }.subs{
+                color:gray;
+            }
+            .profile-contents{
+                margin-left:20px;
+                margin-right: 10px;
+            }
+            .profile-picture{
+                width:100%;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-con">
+            <div class="profile">
+                <img class="profile-picture" src="profile-pics/girlpp.jpeg">
+                <div class="profile-contents">
+                    <div class="name">oliver</div>
+                    <div class="subs">the cat</div>
+                    <div class="subs">Popular</div>
+                </div>
+                <button class="add-friend">Follow</button>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="profile-pics/girlpp1.jpg">
+                <div class="profile-contents">
+                    <div class="name">Mimi</div>
+                    <div class="subs">the sleepy cat</div>
+                    <div class="subs">Popular</div>
+                </div>
+                <button class="add-friend">Follow</button>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="profile-pics/girlpp2.png">
+                <div class="profile-contents">
+                    <div class="name">Rex</div>
+                    <div class="subs">Happy Bulldog</div>
+                    <div class="subs">Popular</div>
+                </div>
+                <button class="add-friend">Follow</button>
+            </div>
+        </div>
+    </body>
+</html>
